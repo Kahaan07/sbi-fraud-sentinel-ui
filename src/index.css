@@ -37,9 +37,9 @@ All colors MUST be HSL.
     --ring: 223 63% 20%;
 
     /* SBI Brand Colors */
-    --sbi-blue: 223 63% 20%;
+    --sbi-blue: 223 76% 28%;
     --sbi-light: 223 100% 91%;
-    --sbi-gradient: linear-gradient(135deg, hsl(223 63% 20%), hsl(223 63% 25%));
+    --sbi-gradient: linear-gradient(135deg, hsl(223 76% 28%), hsl(223 76% 32%));
     
     /* Professional shadows */
     --shadow-soft: 0 1px 3px 0 hsl(223 63% 20% / 0.1), 0 1px 2px 0 hsl(223 63% 20% / 0.06);

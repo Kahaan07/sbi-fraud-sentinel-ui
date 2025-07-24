@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
-import { Upload, MapPin, Users, FileText, BarChart3, Shield } from "lucide-react";
+import { Upload, MapPin, Users, FileText, BarChart3 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import sbiLogo from "@/assets/sbi-logo.png";
 
 const Navigation = () => {
   const navItems = [
@@ -17,7 +18,7 @@ const Navigation = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <div className="flex items-center space-x-3">
-              <Shield className="h-8 w-8 text-primary-foreground" />
+              <img src={sbiLogo} alt="SBI Logo" className="h-12 w-auto" />
               <div className="text-primary-foreground">
                 <h1 className="font-roboto font-bold text-xl">SBI Fraud Sentinel</h1>
                 <p className="text-sm text-primary-foreground/80">Financial Fraud Detection System</p>
